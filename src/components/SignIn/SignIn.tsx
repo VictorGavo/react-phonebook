@@ -106,7 +106,7 @@ export const SignIn = withRouter( (props:SignInProps) => {
         </form>
 
         <AuthCheck fallback={
-            <Button className={classes.googleButton} onClick={sign_in}>Sign In</Button>
+            <Button className={classes.googleButton} onClick={sign_in}>Sign In With Google</Button>
         }>
             <Button variant='contained' color='secondary' onClick={sign_out}>Sign Out</Button>
         </AuthCheck>
